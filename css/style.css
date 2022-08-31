@@ -1,6 +1,5 @@
 *{
   text-align: left;
-  list-style: inside;
   font-family: 'Courier New', Courier, monospace;
   font-style: normal;
   background-color: #eee;
@@ -11,6 +10,11 @@ ol, ul, li, dd,a{
   padding: 0%;
 }
 
+ol, ul,a{
+  padding: 0%;
+  list-style: inside;
+}
+
 .center{
   text-align: center;
   align-items: center;
@@ -19,4 +23,9 @@ ol, ul, li, dd,a{
 img{
   width: 150px;
   height: auto;
+}
+
+.flex-test{
+  display: inline-flex;
+  list-style: none;
 }
