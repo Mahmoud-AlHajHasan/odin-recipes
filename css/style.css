@@ -1,0 +1,18 @@
+*{
+  color:rgb(218, 126, 61);
+  text-align: left;
+  list-style: inside;
+  background-color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+
+}
+
+ol, ul, li{
+  padding: 0%;
+}
+
+.center{
+  text-align: center;
+  align-items: center;
+}
