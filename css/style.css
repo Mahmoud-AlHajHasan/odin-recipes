@@ -1,31 +1,167 @@
 *{
-  text-align: left;
   font-family: 'Courier New', Courier, monospace;
   font-style: normal;
-  background-color: #eee;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #2F4858;
+  margin: 0;
+  height: 100vh
+}
+
+.page * {
+  min-width: 0;
+}
+
+a {
+  text-decoration: none;
   color: rgb(75,85,99)
 }
 
-ol, ul, li, dd,a{
-  padding: 0%;
+a:hover {
+  text-decoration: underline;
 }
 
-ol, ul,a{
-  padding: 0%;
-  list-style: inside;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #B995A4;
+  color: #fff;
 }
 
-.center{
+.date, .links {
+  flex: 1;
+}
+
+.title {
+  flex: 2;
   text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login:hover,.signup:hover {
+  text-decoration: underline;
+}
+
+.signup, .login {
+  margin: 0 20px;
+}
+
+.header {
+  display: flex;
   align-items: center;
+  background-color: #FFD9C3;
+  margin-bottom: 20px;
 }
 
-img{
-  width: 150px;
+.header div {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img{
+  max-height: 200px;
+  width: auto;
+  display: block;
+  }
+
+.logo {
+  order: 2;
+  flex:1;
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  order: 3;
+  flex:1;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subscribe {
+  order: 1;
+  flex: 1;
+  font-weight: 700;
+  text-align: center;
+}
+
+.subscribe:hover {
+  text-decoration: underline;
+}
+
+.social,
+.subscribe {
+  align-self: flex-end;
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px ;
+}
+
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recipes div img {
+  max-width: 150px;
   height: auto;
+  margin: 20px;
 }
 
-.flex-test{
-  display: inline-flex;
-  list-style: none;
+.recipes div {
+  margin-top: 20px;
+  border-radius: 25px;
+  border: #FFD9C3 solid 3px;
+  padding: 10px;
+  margin: 10px 10px;
 }
+.recipes div:hover {
+  background-color: #ffe5d6;
+}
+
+.footer {
+  display: flex;
+  margin-top: auto;
+  justify-content: space-around;
+}
+
+.footer-item {
+  padding: 20px;
+  background-color: #B995A4;
+  border: #fff solid 1px;
+  flex:1;
+  text-align: center;
+  color: #fff;
+}
+
+.content .recipes div {
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  font-weight: 800;
+}
+
