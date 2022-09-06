@@ -33,18 +33,31 @@ a:hover {
 .menu {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
   background-color: #B995A4;
   color: #fff;
 }
 
 .date, .links {
   flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  font-size: 1.25vh;
+}
+
+.links {
+  font-size: 1vh;
 }
 
 .title {
   flex: 2;
   text-align: center;
+  font-size: 1.5vh;
+  display: flex;
+  align-items: center;
 }
 
 .links {
@@ -74,7 +87,9 @@ a:hover {
 
 .logo img{
   max-height: 200px;
+  min-height: 100px;
   width: auto;
+  min-width: auto;
   display: block;
   }
 
@@ -161,7 +176,6 @@ a:hover {
 .title {
   display: flex;
   justify-content: center;
-  font-size: larger;
   font-weight: 800;
 }
 
