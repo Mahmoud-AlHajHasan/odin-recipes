@@ -24,3 +24,8 @@ a:hover {
 #incorrectly-used-id {
     text-align: right;
 }
+
+footer img {
+    height: auto;
+    width: 100px;
+}
