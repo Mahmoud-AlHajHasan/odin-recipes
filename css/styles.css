@@ -1,0 +1,26 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e3b261;
+    color: #e5e7eb;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(63, 63, 63);
+    text-decoration: underline;
+}
+
+.medium-font {
+    font-size: large;
+}
+
+.heavy {
+    font-weight: 700;
+}
+
+#incorrectly-used-id {
+    text-align: right;
+}
