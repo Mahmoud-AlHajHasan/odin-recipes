@@ -21,11 +21,9 @@ a:hover {
     font-weight: 700;
 }
 
-#incorrectly-used-id {
-    text-align: right;
-}
 
-footer img {
+
+h1 img {
     height: auto;
-    width: 100px;
+    width: 15px;
 }
