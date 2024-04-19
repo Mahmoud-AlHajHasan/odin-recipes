@@ -4,6 +4,17 @@
     color: #e5e7eb;
 }
 
+.index-list {
+    margin: 48px auto;
+    text-align: center;
+    width: fit-content;
+    padding: 0;
+}
+
+.index-title {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
