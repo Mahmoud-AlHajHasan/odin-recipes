@@ -11,6 +11,12 @@
     padding: 0;
 }
 
+.index-li {
+    list-style: none;
+    display: inline;
+    margin: 0 12px;
+}
+
 .index-title {
     text-align: center;
 }
@@ -26,8 +32,4 @@ a:hover {
 
 .medium-font {
     font-size: large;
-}
-
-.heavy {
-    font-weight: 700;
 }
